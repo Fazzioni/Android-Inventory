@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WORK</string>
+    <string name="title_activity_clientes__add_">Clientes_ADD_Activity</string>
+    <string name="title_activity_produtos__add_">Produtos_Add_Activity</string>
+
+    <string name="Usar_Lista_Imposto_ci">Lista 16%</string>
+    <string name="Usar_Lista_Imposto_si">Lista  6%</string>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Menu_item_FILTER_clear"
+        android:title="clear"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_panorama_wide_angle_black_24dp"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/Menu_item_FILTER_post"
+        android:title="post"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_check_black_24dp"
+        app:showAsAction="always"
+        />
+
+
+</menu>
