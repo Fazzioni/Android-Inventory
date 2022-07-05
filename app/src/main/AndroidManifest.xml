@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.work">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.work.Pedidos.FiltroActivity"></activity>
+        <activity
+            android:name="com.example.work.Pedidos.Pedido_new_produto"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateVisible"
+            ></activity>
+        <activity android:name="com.example.work.Situacao.Situacao_new_Activity" />
+        <activity android:name="com.example.work.Situacao.Situacao_Lista_Activity" />
+        <activity
+            android:name="com.example.work.Pedidos.Pedido_new_Activity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name="com.example.work.Pedidos.Pedidos_Lista_Activity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            />
+        <activity android:name="com.example.work.Mercadoria.Produtos_Add_Activity" />
+        <activity android:name="com.example.work.Mercadoria.Produtos_activity" />
+        <activity android:name="com.example.work.Clientes.ClientesActivity" />
+        <activity android:name="com.example.work.Clientes.Clientes_ADD_Activity" />
+        <activity
+            android:name="com.example.work.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

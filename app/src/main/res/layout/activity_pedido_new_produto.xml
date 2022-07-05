@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:context=".Pedidos.Pedido_new_produto">
+
+        <LinearLayout
+            android:id="@+id/laytout999"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FAD9A3"
+            android:orientation="vertical"
+
+            >
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#CF9C27"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                app:title="Produto" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FDCF50"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/P_L_M_lbl_Mercadoria"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginBottom="10sp"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="22sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/P_L_M_lbl_preco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#CEA26E">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#B97109"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                app:title="Quantidade" />
+
+            <EditText
+                android:id="@+id/P_L_M_Edit_quantidade"
+                android:layout_width="207dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar3"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_toStartOf="@+id/P_L_M_btn_mais"
+                android:inputType="numberDecimal"
+                android:textAlignment="viewStart"
+                android:imeOptions="actionDone" />
+
+            <Button
+                android:id="@+id/P_L_M_btn_mais"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_below="@+id/toolbar3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="25dp"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/P_L_M_btn_menos"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_below="@+id/P_L_M_btn_mais"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="25dp"
+                android:text="-" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#F1ADAD">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#EE4C0D"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                app:title="Preço Total" />
+
+            <EditText
+                android:id="@+id/P_L_M_Edit_Preco"
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar4"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="22dp"
+                android:inputType="numberDecimal"
+                android:textAlignment="viewStart" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="30dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/P_L_M_btn_cancel"
+                android:layout_width="150dp"
+                android:layout_height="171dp"
+                android:layout_marginEnd="10dp"
+                android:text="Remover" />
+
+            <Button
+                android:id="@+id/P_L_M_btn_salvar"
+                android:layout_width="150dp"
+                android:layout_height="172dp"
+                android:layout_marginStart="10dp"
+
+                android:text="Salvar" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

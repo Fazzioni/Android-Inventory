@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/menu_pedido_preco_ci"
+    android:icon="@drawable/ic_person_add_24dp"
+    android:title="@string/Usar_Lista_Imposto_ci" />
+
+<item android:id="@+id/menu_pedido_preco_si"
+        android:title="@string/Usar_Lista_Imposto_si"
+    android:showAsAction="ifRoom" />
+
+
+</menu>

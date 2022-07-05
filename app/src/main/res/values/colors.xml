@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#3BA507</color>
+    <color name="Background_imposto_ci">#8AF1B9</color>
+    <color name="bakcground_imposto_si">#EECD31</color>
+    <color name="bakcground_pedido_info">#B9B6B3</color>
+
+
+
+
+</resources>
