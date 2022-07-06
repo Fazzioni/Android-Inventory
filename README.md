@@ -1,6 +1,6 @@
 # Android-Inventory
 
-[![license](https://img.shields.io/static/v1?label=license&message=MIT&color=red)](https://github.com/Fazzioni/InventoryControl/blob/main/LICENSE)
+[![license](https://img.shields.io/static/v1?label=license&message=MIT&color=red)]( https://github.com/Fazzioni/Android-Inventory/blob/main/LICENSE )
 [![android](https://img.shields.io/static/v1?label=Android&message=Studio&color=success)](https://developer.android.com/studio)
 [![SQLite](https://img.shields.io/static/v1?label=SQLite&message=Database&color=blue)](https://developer.android.com/reference/android/database/sqlite/SQLiteDatabase)
 
