@@ -8,11 +8,11 @@
 
 
 <p  align="center">
-<a align="center" href="#" >
-<img width="33%" src="https://user-images.githubusercontent.com/79149971/177438831-51aad3a8-e4e1-4b62-8416-ffbd22154205.jpg"/>
-<img width="33%" src="https://user-images.githubusercontent.com/79149971/177438838-f94fdbd9-b425-4d04-9e0a-f75ab2d287e1.jpg"/>
-<img width="33%" src="https://user-images.githubusercontent.com/79149971/177438848-87cf1213-5cf1-46b2-8352-2e5e2465ac50.jpg"/>
-</a></p>
+ 
+<img width="32%" src="https://user-images.githubusercontent.com/79149971/177438831-51aad3a8-e4e1-4b62-8416-ffbd22154205.jpg"/>
+<img width="32%" src="https://user-images.githubusercontent.com/79149971/177438838-f94fdbd9-b425-4d04-9e0a-f75ab2d287e1.jpg"/>
+<img width="32%" src="https://user-images.githubusercontent.com/79149971/177438848-87cf1213-5cf1-46b2-8352-2e5e2465ac50.jpg"/>
+ </p>
 
 # :arrow_right: About 
 
@@ -36,10 +36,10 @@ After all, my insomnia was useful to solve a family problem: Turning my father's
 
 # :bar_chart: Report Example
 <p  align="center">
-<a align="center" href="#" >
+ 
 <img width="49%" src="https://user-images.githubusercontent.com/79149971/177438809-627ac51f-4b69-4217-b7fc-4da6e1ef811c.jpg"/>
 <img width="49%" src="https://user-images.githubusercontent.com/79149971/177439821-18daec1d-03b4-4b9e-9435-16348a4336da.jpg"/>
-</a></p>
+ </p>
 
 
 # :rocket: Magic trip
